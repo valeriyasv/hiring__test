@@ -1,0 +1,24 @@
+.feedback__phone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.feedback__number {
+  margin: 0;
+  font-weight: 300;
+  color: #515359;
+}
+
+.feedback__button {
+  background-color: transparent;
+  border: 2px solid #979ba6;
+  color: #cb003d;
+  font-size: 16px;
+  font-weight: bold;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

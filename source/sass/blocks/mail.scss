@@ -1,0 +1,8 @@
+.mail__title {
+  @include footer-title;
+}
+  
+.mail__text {
+  @include footer-text;
+  color: #cb003d;
+}

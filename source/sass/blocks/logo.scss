@@ -1,0 +1,13 @@
+.logo {
+  &::after {
+    content: "";
+    width: 960px;
+    height: 2px;
+    background-color: #f2f2f2;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+}

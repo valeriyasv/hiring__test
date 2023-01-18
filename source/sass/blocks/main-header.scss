@@ -1,0 +1,20 @@
+.main-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 39px 0 18px;
+}
+
+.main-header__nav {
+  display: flex;
+  flex-direction: column;
+  gap: 54px;
+}
+
+.main-header__feedback {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 37px;
+  max-height: 42px;
+}

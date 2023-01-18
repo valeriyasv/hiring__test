@@ -1,0 +1,55 @@
+.connection__options {
+  background-color: #ffffff;
+  padding: 30px 310px 20px 32px;
+  @include footer-flex;
+  gap: 100px;
+  width: 1250px;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0;
+}
+
+.connection__mail {
+  @include footer-flex;
+  gap: 10px;
+}
+
+.connection__one {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.connection__two {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.connection__contacts {
+  @include footer-flex;
+  gap: 5px;
+}
+
+.connection__adress {
+  @include footer-flex;
+  gap: 30px;
+}
+
+.connection__skype {
+  @include footer-flex;
+  gap: 10px;
+}
+
+.connection {
+  position: relative;
+  display: flex;
+  justify-content: center;
+
+  &::before { 
+    content: url("../img/decor.svg");
+    position: absolute;
+    top: 0;
+    left: 0;
+    }
+}

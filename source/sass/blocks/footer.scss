@@ -1,0 +1,24 @@
+.footer__title {
+  @include footer-title;
+  margin: 0;
+}
+
+.footer__text {
+  @include footer-text;
+  margin: 0;
+  margin-bottom: 10px;
+
+  &--red {
+    color: #cb003d;
+  }
+
+  &--dark {
+    color: #515359;
+    margin-top: 10px;
+  }
+}
+
+.footer__text-container {
+  display: flex;
+  flex-direction: column;
+}
